@@ -1,8 +1,53 @@
 body {
     background-color: lightgray;
+    margin: 12px;
+    text-align: center;
+    padding: 12px;
 }
 head {
     background-color: gray;
     padding: 25px;
-    margin: 0px;
+    margin: 20px;
 }
+#Nav {
+    background-color: blue;
+    padding: 20px;
+    width: 25%;
+}
+#Section {
+    background-color: red;
+    padding: 20px;
+    width: 25%;
+}
+#theHs {
+    background-color: green;
+    margin: 0px;
+    padding: 20px;
+    width: 25%;
+    float: left;
+}
+#p {
+    background-color: darkgray;
+    padding: 20px;
+    width: 35%;
+    float: right;
+}
+#aside {
+    background-color: darkslategrey;
+    padding: 20px;
+    width: 25%;
+    float: right;
+}
+#Article {
+    background-color: darkolivegreen;
+    padding: 20px;
+    width: 25%;
+
+}
+footer {
+    background-color: darkgoldenrod;
+    padding: 20px;
+    margin: 12px;
+    border: 5px;
+    text-align: center
+    }
