@@ -1,53 +1,77 @@
 body {
-    background-color: lightgray;
-    margin: 12px;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #777;
+    width: 960px;
+    font-size: 18px;
+    padding: 20px;
     text-align: center;
-    padding: 12px;
 }
-head {
-    background-color: gray;
+header {
+    background-color: white;
     padding: 25px;
-    margin: 20px;
-}
-#Nav {
-    background-color: blue;
+    margin: 10px;
+    width: 960px;
     padding: 20px;
-    width: 25%;
 }
-#Section {
-    background-color: red;
-    padding: 20px;
-    width: 25%;
-}
-#theHs {
-    background-color: green;
+div {
+    padding: 0px;
     margin: 0px;
-    padding: 20px;
-    width: 25%;
-    float: left;
+    width: 960px;
 }
-#p {
-    background-color: darkgray;
-    padding: 20px;
-    width: 35%;
-    float: right;
-}
-#aside {
-    background-color: darkslategrey;
-    padding: 20px;
-    width: 25%;
-    float: right;
-}
-#Article {
-    background-color: darkolivegreen;
-    padding: 20px;
-    width: 25%;
-
+article {
+    color: black;
+    background-color: #777;
+    width:495px;
+    padding: 12px;
+    margin: 0px;
 }
 footer {
-    background-color: darkgoldenrod;
-    padding: 20px;
-    margin: 12px;
-    border: 5px;
-    text-align: center
-    }
+    width: 960px;
+    background-color: white;
+    padding: 20px;  
+    margin: 0px;
+    clear: both;
+    display: table;
+}
+ #aside {
+     width: 495px;
+     float: right;
+     background-color: white;
+     padding: 20px;
+     text-align: center;
+ }
+ Nav {
+     width:960px;
+     padding: 24px;
+     text-align: center;
+     background-color: white;
+     margin: 10px;
+ }
+ h1 {
+     background-color: white;
+     font-weight: bold;
+     margin: 0px;
+     padding: 20px;
+     width: 495px;
+ }
+ section {
+     background-color: white;
+     float: left;     
+     width: 495px;
+     margin: 0px;
+     padding: 20px;    
+ }
+ p1 { 
+     background-color: white;
+     margin: 5px;
+     padding: 20px;
+     width: 495px;
+     float: left;
+ }
+ h2 {
+     background-color: white;
+     margin: 0px;
+     padding: 20px;
+     width: 495px;
+     float: left;
+ }
