@@ -14,9 +14,9 @@ padding: 20px;
 }
 Nav {
 width:960px;
+background-color: white;
 padding: 20px;
 margin: 5px 10px;
-background-color: white;
 }
 footer {
 width: 960px;
@@ -30,8 +30,7 @@ width: 425px;
 height: 227px;
 background-color: white;
 padding: 20px;
-margin: 5px 5px 5px 20px;
-text-align: center;
+margin: 5px 5px 10px 20px;
 float: left;
 }
 h1 {
@@ -52,5 +51,4 @@ color: black;
 background-color: white;
 margin: 5px;
 padding: 20px;
-float: inherit;
 }
